@@ -164,6 +164,14 @@ a:hover {
   width: 100%;
 }
 
+@media (max-width: 767px) {
+  .logo-parceiros img{
+    width: auto !important;
+    
+  }
+}
+
+
 @media (max-width: 768px) {
   .introducao {
     min-height: 30vh;
