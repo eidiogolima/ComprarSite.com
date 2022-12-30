@@ -15,6 +15,7 @@
   --cor-12:#000000;
   --cor-p1:#2D033B;
   --cor-p2: #64137E;
+  --background-intro: url('../bg-introducao.jpg')
 }
 .cor-b-p2 {
   background: var(--cor-p2);
@@ -153,3 +154,24 @@ a:hover {
   color: inherit;
   opacity: .8;
 }
+
+.introducao {
+  background-size: cover !important;
+  min-height: 60vh;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0,.2);
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .introducao {
+    min-height: 30vh;
+  }
+}
+
+  @media (max-width: 420px) {
+    :root { --background-intro: url(../bg-introducao-mobile.jpg); }
+}
+
+
