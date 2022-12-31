@@ -8,7 +8,7 @@ const Contato = () => {
         <div className="row d-grid d-md-flex align-items-center cor-b-1 shadow rounded p-2 p-md-5 py-4 mx-2 mx-sm-0">
           <div className="col ">
             <h1 className='cor-p1 mb-4'>Gostou ? entre em contato!</h1>
-            <h3 className='cor-8 mb-3'>Não peca essa oportunidade </h3>
+            <h3 className='cor-8 mb-3'>Não peca essa oportunidade de comprar seu site! </h3>
             <p className='cor-8 fw-semibold mb-4'>
               Seu negócio pode crescer ainda mais não peca essa oportunidade de
               comprar um site para aumentar suas vendas consideravelmente.{' '}
