@@ -4,7 +4,7 @@ import Notebook from '../../../assests/img/notebook.png';
 
 const Introducao = () => {
   return (
-    <div className="introducao" style={{ backgroundImage: `var(--background-intro)` }}>
+    <div id = "home" className="introducao" style={{ backgroundImage: `var(--background-intro)` }}>
       <div className="container-md container-fluid">
         <div className="row py-md-6 py-4 text-center text-md-start align-items-center d-md-flex d-grid">
           <div className="col">
