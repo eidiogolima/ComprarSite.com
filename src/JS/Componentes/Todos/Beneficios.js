@@ -9,7 +9,8 @@ const Beneficios = () => {
     <section className="cor-b-p1 py-md-6 py-4">
       <div className="container-md container-fluid ">
         <h1 className='text-center cor-2 fw-semibold'>BENEFICIOS</h1>
-        <div className="d-flex mt-4 gap-lg-4 gap-md-3  gap-sm-4 text-center flex-md-nowrap flex-wrap justify-content-center">
+        <div className="d-flex mt-4  
+        gap-4 gap-lg-4 gap-md-3  gap-sm-4 text-center flex-md-nowrap flex-wrap justify-content-center">
           <div className="cor-b-2 p-3 rounded ">
             <img style={{ width: 'auto' }} src={SEO} alt="" />
             <h2>SEO</h2>
