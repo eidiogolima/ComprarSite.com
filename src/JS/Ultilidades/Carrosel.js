@@ -27,19 +27,19 @@ const Carrosel = ({...props}) => {
     </div>
     <div className="carousel-inner">
       <div className="carousel-item active" data-bs-interval="10000">
-        <img src={props.img1} className="d-block w-100" alt="..." />
+        <img width="440px" height='435px' src={props.img1} className="d-block w-100" alt="..." />
         <div className="carousel-caption d-none d-md-block">
           
         </div>
       </div>
       <div className="carousel-item" data-bs-interval="2000">
-        <img src={props.img2} className="d-block w-100" alt="..." />
+        <img width="440px" height='435px' src={props.img2} className="d-block w-100" alt="..." />
         <div className="carousel-caption d-none d-md-block">
         
         </div>
       </div>
       <div className="carousel-item">
-        <img src={props.img3} className="d-block w-100" alt="..." />
+        <img width="440px" height='435px' src={props.img3} className="d-block w-100" alt="..." />
         <div className="carousel-caption d-none d-md-block">
         </div>
       </div>

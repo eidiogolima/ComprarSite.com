@@ -2,13 +2,13 @@ import React from 'react';
 
 const Carrosel = ({ ...props }) => {
   return (
-    <div id="carouselExampleCaptions" class="carousel slide carousel-dark">
-      <div class="carousel-indicators">
+    <div id="carouselExampleCaptions" className="carousel slide carousel-dark">
+      <div className="carousel-indicators">
         <button
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="0"
-          class="active"
+          className="active"
           aria-current="true"
           aria-label="Slide 1"
         ></button>
@@ -25,37 +25,37 @@ const Carrosel = ({ ...props }) => {
           aria-label="Slide 3"
         ></button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src={props.img1} class="d-block w-100" alt="..." />
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img width="440px" height='435px' src={props.img1} className="d-block w-100" alt="..." />
   
         </div>
-        <div class="carousel-item">
-          <img src={props.img2} class="d-block w-100" alt="..." />
+        <div className="carousel-item">
+          <img width="440px" height='435px' src={props.img2} className="d-block w-100" alt="..." />
      
         </div>
-        <div class="carousel-item">
-          <img src={props.img3} class="d-block w-100" alt="..." />
+        <div className="carousel-item">
+          <img width="440px" height='435px' src={props.img3} className="d-block w-100" alt="..." />
         
         </div>
       </div>
       <button
-        class="carousel-control-prev cor-b-6"
+        className="carousel-control-prev cor-b-6"
         type="button"
         data-bs-target="#carouselExampleCaptions"
         data-bs-slide="prev"
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
       </button>
       <button
-        class="carousel-control-next cor-b-6"
+        className="carousel-control-next cor-b-6"
         type="button"
         data-bs-target="#carouselExampleCaptions"
         data-bs-slide="next"
       >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
       </button>
     </div>
   );

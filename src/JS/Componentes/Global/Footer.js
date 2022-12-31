@@ -20,9 +20,9 @@ const Footer = () => {
         </span>
         <div>
 
-          <a href="#home">
+          <a href="#home" aria-label="Voltar para o inicio">
 
-          <img className='cor-b-1 p-1 rounded' src={Seta} alt="" />
+          <img width='30px' height="15px" className='cor-b-1 p-1 rounded' src={Seta} alt="" />
           </a>
 
         </div>

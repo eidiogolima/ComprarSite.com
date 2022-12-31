@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <header className='cor-b-1 shadow py-2'>
       <nav className="navbar navbar-expand-md bg-light d-flex container-md-fluid container-lg p-2 justify-content-between">
-        <a href="/">
-          <img style={{"width": '200px'}} src={Logo} alt="" />
+        <a href="/" aria-label="Navegar para home">
+          <img width ="285px" height='34px' style={{"width": '200px'}} src={Logo} alt="Home-site" />
         </a>
 
         <button
@@ -35,9 +35,9 @@ const Header = () => {
               </a>
             </li>
 
-            <div className='d-none d-md-flex mx-2'>
-              <img src={Icon} alt="" />
-            </div>
+            <li className='d-none d-md-flex mx-2'>
+              <img width='16px' height="16px" src={Icon} alt="" />
+            </li>
 
             <li className="nav-item fw-semibold ">
               <a className="nav-link cor-11" href="/">
@@ -45,9 +45,9 @@ const Header = () => {
               </a>
             </li>
 
-            <div className='d-md-flex mx-2 me-3 d-none'>
-              <img width = {""} src={Icon} alt="" />
-            </div>
+            <li className='d-md-flex mx-2 me-3 d-none'>
+              <img width='16px' height="16px" src={Icon} alt="" />
+            </li>
 
             <li className="nav-item shadow-sm">
               <a className="nav-link btn btn-primary  text-white fw-semibold "target="_blank"rel="noreferrer noopener" href="https://wa.me/5511915647291">

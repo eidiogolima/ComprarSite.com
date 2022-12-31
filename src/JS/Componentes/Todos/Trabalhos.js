@@ -1,14 +1,14 @@
 import React from 'react';
 // Fotos
-import Fotoimoverl1 from '../../../assests/img/carrosel/imovel.jpg';
-import Fotoimoverl2 from '../../../assests/img/carrosel/imovel-2.jpg';
-import Fotoimoverl3 from '../../../assests/img/carrosel/imovel-3.jpg';
-import Fotodecora1 from '../../../assests/img/carrosel/decora.jpg';
-import Fotodecora2 from '../../../assests/img/carrosel/decora-2.jpg';
-import Fotodecora3 from '../../../assests/img/carrosel/decora-3.jpg';
-import Fotomotor1 from '../../../assests/img/carrosel/motor.jpg';
-import Fotomotor2 from '../../../assests/img/carrosel/motor-2.jpg';
-import Fotomotor3 from '../../../assests/img/carrosel/motor-3.jpg';
+import Fotoimoverl1 from '../../../assests/img/carrosel/imovel.webp';
+import Fotoimoverl2 from '../../../assests/img/carrosel/imovel-2.webp';
+import Fotoimoverl3 from '../../../assests/img/carrosel/imovel-3.webp';
+import Fotodecora1 from '../../../assests/img/carrosel/decora.webp';
+import Fotodecora2 from '../../../assests/img/carrosel/decora-2.webp';
+import Fotodecora3 from '../../../assests/img/carrosel/decora-3.webp';
+import Fotomotor1 from '../../../assests/img/carrosel/motor.webp';
+import Fotomotor2 from '../../../assests/img/carrosel/motor-2.webp';
+import Fotomotor3 from '../../../assests/img/carrosel/motor-3.webp';
 // Fim Fotos
 
 import Carrosel from '../../Ultilidades/Carrosel';

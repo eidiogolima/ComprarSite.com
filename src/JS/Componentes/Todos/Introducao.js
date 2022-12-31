@@ -16,7 +16,7 @@ const Introducao = () => {
             <button className="btn cor-b-1 cor-p1 fw-bold  ">ENTRAR EM CONTATO</button>
           </div>
           <div className='col'>
-            <img width='100%' src={Notebook} alt="" />
+            <img width='550px' height='340px' src={Notebook} alt="" />
           </div>
         </div>
       </div>

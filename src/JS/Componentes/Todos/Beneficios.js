@@ -12,10 +12,10 @@ const Beneficios = () => {
         <div className="d-flex mt-4  
         gap-4 gap-lg-4 gap-md-3  gap-sm-4 text-center flex-md-nowrap flex-wrap justify-content-center">
           <div className="cor-b-2 p-3 rounded ">
-            <img className='mb-3'  style={{ width: 'auto' }} src={SEO} alt="" />
+            <img width='200px' height= "200px" className='mb-3'  style={{ width: 'auto' }} src={SEO} alt="" />
             <h2 className='fw-semibold cor-11'>SEO</h2>
 
-            <img className='mb-3' style={{ width: 'auto' }} src={Decorador} alt="" />
+            <img width='89px' height= "13px" className='mb-3' style={{ width: 'auto' }} src={Decorador} alt="" />
             <p className='fw-semibold cor-8'>
               Pontue bem no google e tenha seu site visto por mais pessoas.
               Assim com mais possibilidades de atingir mais clientes e gerar
@@ -24,20 +24,20 @@ const Beneficios = () => {
           </div>
 
           <div className="cor-b-2 p-3 rounded">
-            <img className='mb-3'  style={{ width: 'auto' }} src={Chave} alt="" />
+            <img width='200px' height= "200px" className='mb-3'  style={{ width: 'auto' }} src={Chave} alt="" />
             <h2 className='cor-11 fw-semibold'>Palavra-chave</h2>
 
-            <img className='mb-3' style={{ width: 'auto' }} src={Decorador} alt="" />
+            <img width='89px' height= "13px" className='mb-3' style={{ width: 'auto' }} src={Decorador} alt="" />
             <p className='fw-semibold cor-8'>
             Utilizamos de palavra-chave para seu site ter maior desempenho nas buscar do seu seguimento. Com isso trazendo mais tráfego sem pagar nada a mais.
             </p>
           </div>
 
           <div className="cor-b-2 p-3 rounded">
-            <img className='mb-3'  style={{ width: 'auto' }} src={Desempenho} alt="" />
+            <img width='200px' height= "200px" className='mb-3'  style={{ width: 'auto' }} src={Desempenho} alt="" />
             <h2 className='cor-11 fw-semibold'>Desempenho</h2>
 
-            <img className='mb-3' style={{ width: 'auto' }} src={Decorador} alt="" />
+            <img width='89px' height= "13px" className='mb-3' style={{ width: 'auto' }} src={Decorador} alt="" />
             <p className='fw-semibold cor-8'>
             Ninguém gosta de esperar e para suprir essa dificuldade que muitos sites possuem que é a falta de velocidade trabalhamos bastante para maior ter desempenho.
             </p>

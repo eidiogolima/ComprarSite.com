@@ -15,7 +15,7 @@
   --cor-12:#000000;
   --cor-p1:#2D033B;
   --cor-p2: #64137E;
-  --background-intro: url('../bg-introducao.jpg')
+  --background-intro: url('../bg-introducao.webp')
 }
 .cor-b-p2 {
   background: var(--cor-p2);
@@ -120,7 +120,8 @@ font-weight: 500;
 
 
 img {
-  width: 100%;
+  width: 100% ;
+  height: auto;
 }
 
 .text-secondary-l {
@@ -179,7 +180,7 @@ a:hover {
 }
 
   @media (max-width: 420px) {
-    :root { --background-intro: url(../bg-introducao-mobile.jpg); }
+    :root { --background-intro: url(../bg-introducao-mobile.webp); }
 }
 
 

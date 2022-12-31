@@ -2,16 +2,16 @@ import React from 'react'
 
 const Carrosel = ({...props}) => {
   return (
-    <div id="carouselExampleControlsNoTouching" class="carousel slide carousel-dark" data-bs-touch="false">
+    <div id="carouselExampleControlsNoTouching" className="carousel slide carousel-dark" data-bs-touch="false">
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src={props.img1} className="d-block w-100" alt="..."/>
+        <img width="440px" height='435px' src={props.img1} className="d-block w-100" alt="..."/>
       </div>
       <div className="carousel-item">
-        <img src={props.img2} className="d-block w-100" alt="..."/>
+        <img width="440px" height='435px' src={props.img2} className="d-block w-100" alt="..."/>
       </div>
       <div className="carousel-item">
-        <img src={props.img3} className="d-block w-100" alt="..."/>
+        <img width="440px" height='435px' src={props.img3} className="d-block w-100" alt="..."/>
       </div>
     </div>
     <button className="carousel-control-prev cor-b-6" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
