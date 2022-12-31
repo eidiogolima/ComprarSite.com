@@ -50,7 +50,7 @@ const Header = () => {
             </li>
 
             <li className="nav-item shadow-sm">
-              <a className="nav-link btn btn-primary  text-white fw-semibold "target="_blank"rel="noreferrer noopener" href="https://wa.me/5511915647291">
+              <a className="nav-link btn btn-primary  text-white fw-semibold " href='#contato'>
                 SOLICITAR ORÇAMENTO
               </a>
             </li>

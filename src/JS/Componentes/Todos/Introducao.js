@@ -13,7 +13,7 @@ const Introducao = () => {
               Indicado para pequenas e médias empresas. Um site pode elevar seu negócio para outro nível, entre em contato para nos
               contar o que você precisa. 
             </p>
-            <button className="btn cor-b-1 cor-p1 fw-bold  ">ENTRAR EM CONTATO</button>
+            <a target="_blank"rel="noreferrer noopener" href="https://wa.me/5511915647291" className="btn cor-b-1 cor-p1 fw-bold  ">ENTRAR EM CONTATO</a>
           </div>
           <div className='col'>
             <img width='550px' height='340px' src={Notebook} alt="" />

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contato = () => {
   return (
-    <section className="cor-b-1 ">
+    <section className="cor-b-1 " id = "contato">
       <div className="container-md  container-fluid position-relative z-2 py-md-6 py-4">
         <h1 className='cor-p1 text-center mb-4 fw-semibold'>ENTRE EM CONTATO</h1>
         <div className="row d-grid d-md-flex align-items-center cor-b-1 shadow rounded p-2 p-md-5 py-4 mx-2 mx-sm-0">
