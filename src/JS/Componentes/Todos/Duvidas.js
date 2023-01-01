@@ -2,7 +2,7 @@ import React from 'react';
 import DecoradorBg from '../../../assests/img/background/icon-2.svg'
 const Duvidas = () => {
   return (
-    <section className="cor-b-p1 py-sm-6 py-4 position-relative">
+    <section id = "duvidas" className="cor-b-p1 py-sm-6 py-4 position-relative">
       <img className='d-none d-sm-block position-absolute top-0' src={DecoradorBg} style={{'width':'auto'}} alt="" />
       
       <div className="container-md container-fluid">
