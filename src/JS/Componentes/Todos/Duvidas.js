@@ -19,7 +19,7 @@ const Duvidas = () => {
                   aria-expanded="true"
                   aria-controls="panelsStayOpen-collapseOne"
                 >
-                  Porque ter um site?
+                  Por que ter um site?
                 </button>
               </h2>
               <div
