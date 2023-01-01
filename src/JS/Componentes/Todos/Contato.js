@@ -48,7 +48,7 @@ const Contato = () => {
                     />
                   </div>
 
-                  <div className="col ">
+                  <div className="col mt-2 mt-sm-0 ">
                     <label htmlFor="sobrenome" className="form-label">
 
                       Sobrenome
@@ -116,10 +116,14 @@ const Contato = () => {
               </div>
 
               {/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */}
+              <div className='mb-3'>
+                <span className='fw-semibold cor-3'>Respostas em menos de 2 horas </span>
+              </div>
               <button type="submit" className="btn btn-primary fw-semibold">
                 ENVIAR
               </button>
               <div style={{'position': 'absolute', 'left': '-5000px'}} aria-hidden="true"><input type="text" name="b_7be0dd65ca351019069992978_0a9348f331" tabIndex="-1"/></div>
+              
             </form>
           </div>
         </div>
