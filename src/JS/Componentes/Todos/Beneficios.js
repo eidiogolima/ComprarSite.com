@@ -1,46 +1,41 @@
 import React from 'react';
-import SEO from '../../../assests/img/seo.png';
-import Chave from '../../../assests/img/chave.png';
-import Desempenho from '../../../assests/img/desempenho.png';
-import Decorador from '../../../assests/icons/decorador.svg';
+import SEO from '../../../assests/img/seo.svg';
+import Chave from '../../../assests/img/chave.svg';
+import Desempenho from '../../../assests/img/desempenho.svg';
+import Destaque from '../../../assests/img/destaque.svg';
 
 const Beneficios = () => {
   return (
     <section className="cor-b-p1 py-md-6 py-4">
-      <div className="container-md container-fluid ">
-        <h1 className='text-center cor-2 fw-semibold'>BENEFICIOS</h1>
-        <div className="d-flex mt-4  
-        gap-4 gap-lg-4 gap-md-3  gap-sm-4 text-center flex-md-nowrap flex-wrap justify-content-center">
-          <div className="cor-b-2 p-3 rounded ">
-            <img width='200px' height= "200px" className='mb-3'  style={{ width: 'auto' }} src={SEO} alt="" />
-            <h2 className='fw-semibold cor-11'>SEO</h2>
-
-            <img width='89px' height= "13px" className='mb-3' style={{ width: 'auto' }} src={Decorador} alt="" />
-            <p className='fw-semibold cor-8'>
-              Pontue bem no google e tenha seu site visto por mais pessoas.
-              Assim com mais possibilidades de atingir mais clientes e gerar
-              mais resultados
-            </p>
+      <div className="container-md container-fluid">
+        <div className="row  text-center text-md-start align-items-center d-md-flex d-grid">
+          <div className="col">
+            <img width="550px" height="340px" src={Destaque} alt="" />
           </div>
-
-          <div className="cor-b-2 p-3 rounded">
-            <img width='200px' height= "200px" className='mb-3'  style={{ width: 'auto' }} src={Chave} alt="" />
-            <h2 className='cor-11 fw-semibold'>Palavra-chave</h2>
-
-            <img width='89px' height= "13px" className='mb-3' style={{ width: 'auto' }} src={Decorador} alt="" />
-            <p className='fw-semibold cor-8'>
-            Utilizamos de palavra-chave para seu site ter maior desempenho nas buscar do seu seguimento. Com isso trazendo mais tráfego sem pagar nada a mais.
+          <div className="col">
+            <h1 className="pb-3 cor-1 fw-semibold mt-md-0 mt-3">Destaque-se </h1>
+            <p className="pb-3 cor-3 fw-semibold">
+              Utilizamos das melhores técnicas do mercado para sua empresa.
+              Levantando seu site em primeiro nas pesquisas da sua região. Gerando muitas oportunidades de vendas para o seu negócio.
             </p>
-          </div>
+            
 
-          <div className="cor-b-2 p-3 rounded">
-            <img width='200px' height= "200px" className='mb-3'  style={{ width: 'auto' }} src={Desempenho} alt="" />
-            <h2 className='cor-11 fw-semibold'>Desempenho</h2>
+            <div className="row ">
 
-            <img width='89px' height= "13px" className='mb-3' style={{ width: 'auto' }} src={Decorador} alt="" />
-            <p className='fw-semibold cor-8'>
-            Ninguém gosta de esperar e para suprir essa dificuldade que muitos sites possuem que é a falta de velocidade trabalhamos bastante para maior ter desempenho.
-            </p>
+              <h2 className='cor-2 '>Métricas que levam para cima</h2>
+              
+              <div className="col mt-3">
+                <img width="550px" height="340px" src={Desempenho} alt="" />
+              </div>
+
+              <div className="col mt-3">
+                <img width="550px" height="340px" src={Chave} alt="" />
+              </div>
+
+              <div className="col mt-3">
+                <img width="550px" height="340px" src={SEO} alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
