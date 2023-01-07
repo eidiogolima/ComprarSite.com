@@ -3,9 +3,9 @@ import Introducao from '../Todos/Introducao.js'
 // import Parceiros from '../Todos/Parceiros.js'
 import Beneficios from '../Todos/Beneficios.js'
 import Trabalhos from '../Todos/Trabalhos.js'
-
 import Duvidas from '../Todos/Duvidas.js'
 import Head from '../Global/Head.js'
+import Contato from '../Todos/Contato.js'
 const Home = () => {
   return (
     <div>
@@ -14,6 +14,7 @@ const Home = () => {
       <Introducao/>
       <Beneficios/>
       <Trabalhos/>
+      <Contato/>
       <Duvidas/>
       {/* <Parceiros/> */}
     </div>

@@ -27,9 +27,6 @@ const Header = () => {
           className="collapse navbar-collapse flex-grow-0"
         >
           <ul className="d-flex navbar-nav align-item-center">
-         
-            
-
             <li className="nav-item">
               <a className="nav-link fw-semibold cor-11" href="#trabalhos">
                 RECENTES

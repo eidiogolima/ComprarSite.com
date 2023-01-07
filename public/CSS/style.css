@@ -118,7 +118,14 @@ font-weight: 500;
 
 }
 
-
+#listImportant{
+  
+  display: flex !important;
+  gap: 10px;
+  align-items: center !important;
+  align-self: center !important;
+  align-content: center !important;
+}
 img {
   width: 100% ;
   height: auto;
