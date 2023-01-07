@@ -7,6 +7,8 @@ import Instagram from '../../../assests/icons/ig.svg';
 const Contato = () => {
   const [numero, setNumero] = React.useState('');
   const [nome, setNome] = React.useState('');
+  const [error, setError] = React.useState('');
+  const [status, setStatus] = React.useState('');
 
   const templateParams = {
     from_name: nome,
@@ -23,12 +25,13 @@ const Contato = () => {
       )
       .then(
         (res) => {
-          console.log('Enviado', res.status, res.text);
+          setStatus('Enviado com sucesso')
+          setError(false)
           setNome('');
           setNumero('');
         },
         (err) => {
-          console.log('Erro:', err);
+          setError('Ocorreu um erro ao enviar.', err)
         },
       );
   };
@@ -121,6 +124,9 @@ const Contato = () => {
 
               {/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */}
               <div className="mb-3">
+              {status && status ? <div className='cor-b-1 p-2 cor-p1 fw-bold text-center rounded mb-3'> Dados enviados <span ></span></div> : '' }
+                
+                <div><span>{error && error}</span></div>
                 <span className="fw-semibold cor-3">
                   Respostas em menos de 2 horas{' '}
                 </span>
