@@ -6,7 +6,7 @@ const Duvidas = () => {
       <img className='d-none d-sm-block position-absolute top-0' src={DecoradorBg} style={{'width':'auto'}} alt="" />
       
       <div className="container-md container-fluid">
-        <h1 className='cor-1 text-center mb-4'>DUVIDAS FREQUENTES</h1>
+        <h1 className='cor-1 text-center mb-4'>FAQ - DUVIDAS </h1>
         <div className="row">
           <div className="accordion" id="accordionPanelsStayOpenExample">
             <div className="accordion-item">

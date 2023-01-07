@@ -47,9 +47,22 @@ const Header = () => {
               <img width='16px' height="16px" src={Icon} alt="" />
             </li>
 
-            <li className="nav-item shadow-sm">
-              <a className="nav-link btn btn-primary  text-white fw-semibold "target="_blank"rel="noreferrer noopener" href="https://wa.me/5511915647291">
+            <li className="nav-item ">
+              <a className="nav-link cor-11 fw-semibold "target="_blank"rel="noreferrer noopener" href="https://wa.me/5511915647291">
                 CONTATO
+              </a>
+            </li>
+
+            <li className='d-md-flex mx-2 me-3 d-none'>
+              <img width='16px' height="16px" src={Icon} alt="" />
+            </li>
+
+            <li className="nav-item shadow-sm">
+
+              
+              <a className="nav-link btn btn-primary  text-white fw-semibold "target="_blank"rel="noreferrer noopener" href="https://wa.me/5511915647291">
+
+              (11)91564-7291
               </a>
             </li>
           </ul>

@@ -25,12 +25,13 @@ const Contato = () => {
       )
       .then(
         (res) => {
-          setStatus('Enviado com sucesso')
+          setStatus('Enviado com sucesso', res)
           setError(false)
           setNome('');
           setNumero('');
         },
         (err) => {
+          setError(true)
           setError('Ocorreu um erro ao enviar.', err)
         },
       );

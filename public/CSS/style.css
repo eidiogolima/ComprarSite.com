@@ -114,8 +114,24 @@
 
 .btn {
 font-weight: 500;
+}
 
+#index {
+  z-index: 2 !important;
+  animation: 1s anima-left forwards;
+}
 
+@keyframes anima-left {
+  0% {
+    left:-20px;
+    opacity: 0;
+
+  }
+  100% {
+    left:0px;
+    opacity: 1;
+
+  }
 }
 
 #listImportant{

@@ -6,7 +6,11 @@ import Trabalhos from '../Todos/Trabalhos.js'
 import Duvidas from '../Todos/Duvidas.js'
 import Head from '../Global/Head.js'
 import Contato from '../Todos/Contato.js'
+import ModalAlert from '../../Ultilidades/ModalAlert.js'
 const Home = () => {
+
+  
+
   return (
     <div>
       
@@ -16,6 +20,8 @@ const Home = () => {
       <Trabalhos/>
       <Contato/>
       <Duvidas/>
+      <ModalAlert/>
+      
       {/* <Parceiros/> */}
     </div>
   )
