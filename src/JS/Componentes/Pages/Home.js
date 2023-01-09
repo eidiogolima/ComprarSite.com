@@ -17,8 +17,8 @@ const Home = () => {
       <Head title = 'Home | Comprar Site' description = 'Comprar site um site bom nunca foi tão fácil entre em contato a nossa equipe e tenha seu orçamento em menos de minutos por um de nossos (desenvolvedor) web, programador de site, desenvolvedor de site, web design qualificado. Suporte 24 h, atendimento de qualidade e prioridade para o cliente.'/>
       <Introducao/>
       <Beneficios/>
-      <Trabalhos/>
       <Contato/>
+      <Trabalhos/>
       <Duvidas/>
       <ModalAlert/>
       
