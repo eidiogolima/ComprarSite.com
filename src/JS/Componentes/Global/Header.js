@@ -29,7 +29,7 @@ const Header = () => {
           <ul className="d-flex navbar-nav align-item-center">
             <li className="nav-item">
               <a className="nav-link fw-semibold cor-11" href="#trabalhos">
-                RECENTES
+                PROJETOS
               </a>
             </li>
 
